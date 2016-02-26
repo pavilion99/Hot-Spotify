@@ -1,0 +1,23 @@
+﻿Build started 7/5/2013 7:24:31 PM.
+     1>Project "c:\Users\Spencer\documents\visual studio 2012\Projects\Hot-Spotify\Hot-Spotify\Hot-Spotify.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Hot-Spotify.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib "Hot-Spotify.cpp"
+         Hot-Spotify.cpp
+     1>c:\users\spencer\documents\visual studio 2012\projects\hot-spotify\hot-spotify\Form1.h(169): error C2958: the left parenthesis '(' found at 'c:\users\spencer\documents\visual studio 2012\projects\hot-spotify\hot-spotify\form1.h(161)' was not matched correctly
+     1>c:\users\spencer\documents\visual studio 2012\projects\hot-spotify\hot-spotify\Form1.h(170): error C2969: syntax error : ';' : expected member function definition to end with '}'
+     1>Hot-Spotify.cpp(6): error C2143: syntax error : missing ';' before 'using'
+     1>c:\users\spencer\documents\visual studio 2012\projects\hot-spotify\hot-spotify\Form1.h(161): error C2143: syntax error : missing ')' before ';'
+     1>c:\users\spencer\documents\visual studio 2012\projects\hot-spotify\hot-spotify\Form1.h(161): error C2660: 'CreateProcessW' : function does not take 2 arguments
+     1>Hot-Spotify.cpp(8): error C2337: 'STAThreadAttribute' : attribute not found
+     1>Hot-Spotify.cpp(12): error C2653: 'Application' : is not a class or namespace name
+     1>Hot-Spotify.cpp(12): error C3861: 'EnableVisualStyles': identifier not found
+     1>Hot-Spotify.cpp(13): error C2653: 'Application' : is not a class or namespace name
+     1>Hot-Spotify.cpp(13): error C3861: 'SetCompatibleTextRenderingDefault': identifier not found
+     1>Hot-Spotify.cpp(16): error C2653: 'Application' : is not a class or namespace name
+     1>Hot-Spotify.cpp(16): error C2061: syntax error : identifier 'Form1'
+     1>Hot-Spotify.cpp(16): error C3861: 'Run': identifier not found
+     1>Done Building Project "c:\Users\Spencer\documents\visual studio 2012\Projects\Hot-Spotify\Hot-Spotify\Hot-Spotify.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.48
